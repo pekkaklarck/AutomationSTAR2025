@@ -10,4 +10,8 @@ Arguments
     Greet   Robot
     Greet   Robot   Hi
     Greet   Robot   Hi    ?
-    Greet   Robot   ending=??
+    Greet   Robot   ending=??  # Named argument syntax
+
+Embedded arguments
+    Pekka drinks 2 beers
+    René drinks 3 lonkero
