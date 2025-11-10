@@ -1,8 +1,15 @@
+"""Module based library.
+
+Has some interesting (??) keywords.
+"""
+
+
 from robot.api.deco import keyword
 from robot.api import logger
 
 
 def first_keyword(name):
+    """Our first awesome keyword!"""
     print(f"Hello, {name}!")
 
 
