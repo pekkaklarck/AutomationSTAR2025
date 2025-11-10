@@ -15,3 +15,15 @@ Arguments
 Embedded arguments
     Pekka drinks 2 beers
     René drinks 3 lonkero
+
+Returning value
+    ${value} =    Return something
+    Should Be Equal    ${value}    something
+
+Status
+    Should be positive    67
+    Should be positive    3.14
+    Should be positive    -4
+
+Argument conversion
+    Should be positive    Coffee break!
