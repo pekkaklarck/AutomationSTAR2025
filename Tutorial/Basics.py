@@ -3,7 +3,6 @@
 Has some interesting (??) keywords.
 """
 
-
 from robot.api.deco import keyword
 from robot.api import logger
 
